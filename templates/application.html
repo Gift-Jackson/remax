@@ -32,10 +32,10 @@
 
     <header>
         <div class="header-layer-1">
-            <a class="brand" href="/index.html"><i class="fa-solid fa-home"></i> Remax</a>
-            <a href="https://www.instagram.com/realtor_george20?igshid=MmVlMjlkMTBhMg%3D%3D&utm_source=qr">
+            <a class="brand" href="index.html"><i class="fa-solid fa-home"></i> Re<span class="highlight">/</span>max</a>
+            <a href="mailto:realtorpatterson15@gmail.com" target="_blank">
                 <button>
-                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-regular fa-envelope"></i>
                     Contact Realtor
                 </button>
             </a>
@@ -64,12 +64,14 @@
                 </div>
 
                 <div class="form-container" data-aos="fade-up" data-aos-delay="300">
-                    <form action="https://formsubmit.co/realtorpatterson15@gmail.com" method="POST">
+                    <form action="https://formsubmit.co/realtorpatterson15@gmail.com" method="POST"
+                        enctype="multipart/form-data">
 
                         <!-- <input name="_redirect" type="hidden" id="name"
                             value="https://villastarrealty.netlify.app/templates/application-success.html"> -->
 
-                        <input type="hidden" name="_next" value="https://remaxproperties.netlify.app/templates/application-success.html">
+                        <input type="hidden" name="_next"
+                            value="https://remax.netlify.app/templates/application-success.html">
 
 
                         <label for="fullname">Fullname:</label>
@@ -109,18 +111,18 @@
                         </select>
 
                         <label for="income">Income:</label>
-                        <input class="input" type="text" id="income" name="income" value="$ " required>
+                        <input class="input" type="text" id="income" name="income" value="$" required>
 
                         <label for="pincome">Prove of Income:</label>
                         <input type="file" name="attachment" id="pincome" accept="image/png, image/jpeg">
 
                         <br>
 
-                        <label>Other Occupants?</label><br>
+                        <label>Other Occupants?</label>
                         <label><input class="check" type="radio" name="other_occupant" id="other_occupan" value="Yes">
                             Yes</label>&nbsp;&nbsp;&nbsp;
                         <label><input class="check" type="radio" name="other_occupant" id="other_occupan" value="No">
-                            No</label><br><br>
+                            No</label><br>
 
                         <label for="phone">Emergency Contact:</label>
                         <input class="input" type="tel" id="emergency_contact" name="emergency_contact" value="+1 "
@@ -133,20 +135,44 @@
                         <input class="input" type="text" id="agent" name="agent" value="Realtor Alexander Patterson"
                             readonly>
 
-                        <label>Do you have a pet?</label><br>
+                        <label>Do you have a pet?</label>
                         <label><input class="check" type="radio" name="pet" id="pet" value="Yes">
                             Yes</label>&nbsp;&nbsp;&nbsp;
                         <label><input class="check" type="radio" name="pet" id="pet" value="No"> No</label><br><br>
 
-                        <label>Do you smoke?</label><br>
+                        <label>Do you smoke?</label>
                         <label><input class="check" type="radio" name="smoke" id="smoke" value="Yes">
                             Yes</label>&nbsp;&nbsp;&nbsp;
                         <label><input class="check" type="radio" name="smoke" id="smoke" value="No"> No</label><br><br>
 
-                        <label>Are you an ex-convict?</label><br>
+                        <label>Are you an ex-convict?</label>
                         <label><input class="check" type="radio" name="ex_convict" id="ex_convict" value="Yes">
                             Yes</label>&nbsp;&nbsp;&nbsp;
                         <label><input class="check" type="radio" name="ex_convict" id="ex_convict" value="No">
+                            No</label><br><br>
+
+                        <label>Are you a first time buyer?</label>
+                        <label><input class="check" type="radio" name="first_time_buyer" id="first_time_buyer"
+                                value="Yes">
+                            Yes</label>&nbsp;&nbsp;&nbsp;
+                        <label><input class="check" type="radio" name="first_time_buyer" id="first_time_buyer"
+                                value="No">
+                            No</label><br><br>
+
+                        <label>Do you need to sell your house?</label>
+                        <label><input class="check" type="radio" name="sell_house" id="sell_house"
+                                value="Yes">
+                            Yes</label>&nbsp;&nbsp;&nbsp;
+                        <label><input class="check" type="radio" name="sell_house" id="sell_house"
+                                value="No">
+                            No</label><br><br>
+
+                        <label>Have you been pre-approved for mortgage?</label>
+                        <label><input class="check" type="radio" name="mortgage" id="mortgage"
+                                value="Yes">
+                            Yes</label>&nbsp;&nbsp;&nbsp;
+                        <label><input class="check" type="radio" name="mortgage" id="mortgage"
+                                value="No">
                             No</label><br><br>
 
                         <!-- <label>Any Voucher?</label><br>
